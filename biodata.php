@@ -27,10 +27,9 @@
                 $sql=mysqli_query($conn,"SELECT * FROM details");
 
                 while($row=mysqli_fetch_assoc($sql)){
-                    $unserializeaccess=unserialize($row['access']);
+                    $unserializeaccess=unserialize($row['accessto']);
 
            ?>
-           
 
         </thead>
         <tbody>
