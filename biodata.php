@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+        <script type="text/javascript" src="tooltip.js"></script>
     </head>
 
 
@@ -19,6 +20,7 @@
                 <th scope="col">Numero Empleado</th>
                 <th scope="col">Puesto</th>
                 <th scope="col">Acceso a</th>
+                <th scope="col">Borrar</th>
                 </tr>
             <?php 
                 include_once"config.php";
@@ -41,6 +43,10 @@
                             echo $value.", ";
                         }
                     ?>
+                </td>
+                <td>
+                    
+                <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
                 </td>
             </tr>
             <?php 
