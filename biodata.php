@@ -19,9 +19,7 @@
                 <th scope="col">Numero Empleado</th>
                 <th scope="col">Puesto</th>
                 <th scope="col">Acceso a</th>
-                
-                
-            </tr>
+                </tr>
             <?php 
                 include_once"config.php";
                 $sql=mysqli_query($conn,"SELECT * FROM details");
@@ -37,8 +35,7 @@
                 <td><?=$row["firstname"] ?></td>
                 <td><?=$row["numemp"] ?></td>
                 <td><?=$row["puesto"] ?></td>
-             
-                
+                <!-- unserialize the access field and converts it again in a normal string -->
                 <td><?php 
                         foreach ($unserializeaccess as $key => $value){
                             echo $value.", ";
