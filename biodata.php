@@ -27,7 +27,7 @@
                 $sql=mysqli_query($conn,"SELECT * FROM details");
 
                 while($row=mysqli_fetch_assoc($sql)){
-                    $unserializeaccess=unserialize($row['accessto']);
+                    $unserializeaccess=unserialize($row['access']);
 
            ?>
 
@@ -38,7 +38,7 @@
                 <td><?=$row["numemp"] ?></td>
                 <td><?=$row["puesto"] ?></td>
              
-                <td><?=$row["accessto"] ?></td>
+                
                 <td><?php 
                         foreach ($unserializeaccess as $key => $value){
                             echo $value.", ";

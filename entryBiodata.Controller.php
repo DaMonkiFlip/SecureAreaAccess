@@ -4,10 +4,10 @@ include_once "./config.php";
 $firstname=$_POST["firstname"];
 $numemp=$_POST["numemp"];
 $puesto=$_POST["puesto"];
-$access=$_POST["accessto"];
+$access=$_POST["access"];
 $accessInString=serialize($access);
 
-$sql="Insert into details(firstname,numemp,puesto,accessto) 
+$sql="Insert into details(firstname,numemp,puesto,access) 
 values('$firstname','$numemp','$puesto','".$accessInString."')";
 //execute query command
 $checkResult= mysqli_query($conn, $sql);
