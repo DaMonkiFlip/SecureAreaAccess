@@ -194,7 +194,7 @@
                         <input type="submit" class="btn btn-dark" value="Enviar">
                       </div>
                       <div class="col-sm-3">
-                        <input type="reset" class="btn btn-dark" value="Reset">
+                        <input type="reset" class="btn btn-dark" value="Borrar">
                     </div>
                 </div>
 
