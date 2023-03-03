@@ -90,7 +90,7 @@
 
         <form name="myForm" onsubmit="return validateForm()" action="./entryBiodata.Controller.php" method="POST" style="background-color:rgb(190, 215, 229); ">
           <div class="col-sm-12"> 
-            <img src="https://www.amats.com.mx/images/nidec-corporation-logo-vector.svg" alt="logo" class="img-fluid"">
+            <img src="https://www.amats.com.mx/images/nidec-corporation-logo-vector.svg" alt="logo" class="img-fluid">
           <h1 class="border-bottom center pb-3 mb-4" style="text-align: center;">Formulario Registro Acceso </h1>
         </div> 
 
