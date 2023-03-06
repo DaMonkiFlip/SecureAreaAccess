@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <title>Form Registro</title>
@@ -79,7 +80,7 @@
     <body class="container">
       
     <div class="container" >
-    <a href="biodata.php"><button type="button" class="btn btn-primary btn-lg" >View Data</button></a>
+    <a href="index.php"><button type="button" class="btn btn-primary btn-lg" >View Data</button></a>
     </div>
     <div class="row">
       <div class="col-sm-3"></div>
@@ -209,6 +210,5 @@
           </div>
           </div>
     </body>
-
 </html>
 

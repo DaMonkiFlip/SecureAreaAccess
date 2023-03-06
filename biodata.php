@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-sm">
                     <br>
-                    <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Add Data</button></a>
+                    <a href="mainindex.php"><button type="button" class="btn btn-primary btn-lg">Add Data</button></a>
                 </div>
                 <div class="col-sm">
                     <br>
