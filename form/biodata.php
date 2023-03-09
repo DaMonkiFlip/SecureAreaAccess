@@ -20,7 +20,7 @@ $result = mysqli_query($conn,"SELECT * FROM employee");
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg nidec-green navbar-light bg-light">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -69,7 +69,7 @@ $result = mysqli_query($conn,"SELECT * FROM employee");
         <input class="form-control" id="myInput" type="text" placeholder="Buscar..."><br>
            <!-- end search bar -->
         <!-- in here we add the id to download -->
-        <table class="table table-dark" id="download">
+        <table class="table table-dark biodata-table" id="download">
             <thead>
                 <tr>
                     <th scope="col">ID</th>

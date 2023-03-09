@@ -1,9 +1,48 @@
 body {
-    background-color: #4e7b97;
+    background-color: #e5e5e5 ;
     }
 
 .image-custom1{
     max-width: 70%;
     height: auto;
 }
+
+.nidec-green{
+    background-color: #000;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,175,82,.5)),to(rgba(0,175,82,.5))),url(../Images/Backgrounds/Steel-BG.jpg);
+    background: -webkit-linear-gradient(rgba(0,175,82,.5),rgba(0,175,82,.5)),url(../Images/Backgrounds/Steel-BG.jpg);
+    background: linear-gradient(rgba(0,175,82,.85),rgba(0,175,82,.85)),url(../Images/Backgrounds/Steel-BG.jpg);
+    background-size: 100% 100%;
+}
+
+.nidec-steel{
+    background-color: #434343;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(255, 255, 255, 0.205)),to(rgba(255,255,255,.7))),url(../images/Steel-BG.jpg);
+    background: -webkit-linear-gradient(rgba(255,255,255,.7),rgba(255, 255, 255, 0.096)),url(../images/Steel-BG.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.74),rgba(255, 255, 255, 0.534)),url(../images/Steel-BG.jpg);
+    background-size: 100% 100%;
+    color: #000000;
+}
     
+.biodata-table{
+    background-color: #5a5a5c;
+}
+
+.navbar-text{
+   
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+
+.main-text{
+    
+    font-size: 2em;
+    display: block;
+    font-family: 'Montserrat',sans-serif;
+   
+    font-weight: 730;
+    line-height: 1.25em;
+    
+}

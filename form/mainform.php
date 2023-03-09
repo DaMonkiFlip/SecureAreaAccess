@@ -85,15 +85,15 @@ if (!isset($_SESSION['UserData']['Username'])) {
           }
           </script> -->
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg nidec-green navbar-light bg-light ">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="collapse navbar-collapse  navbar-text" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="">Añadir información <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="" >Añadir información <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./biodata.php">Ver Información</a>
@@ -120,10 +120,11 @@ if (!isset($_SESSION['UserData']['Username'])) {
   <div class="row">
     <div class="col-sm-3"></div>
     <div class="col-sm-6">
-      <form name="myForm" onsubmit="return validateForm()" action="./entryBiodata.Controller.php" method="POST" style="background-color:rgb(190, 215, 229); ">
+      <form name="myForm" onsubmit="return validateForm()" action="./entryBiodata.Controller.php" method="POST" class="nidec-steel" ">
         <div class="col-sm-12">
           <img src="https://www.amats.com.mx/images/nidec-corporation-logo-vector.svg" alt="logo" class="img-fluid">
-          <h1 class="border-bottom center pb-3 mb-4" style="text-align: center;">Formulario Registro Acceso </h1>
+          
+          <h1 class="border-bottom center pb-3 mb-4 main-text" style="text-align: center;">Formulario Registro Acceso </h1>
         </div>
         <div class="form-group row">
           <div class="col-sm-1"></div>
@@ -172,7 +173,7 @@ if (!isset($_SESSION['UserData']['Username'])) {
                     </div>
                 </div> -->
 
-        <div class="form-group row">
+        <div class="form-group row border-bottom center pb-3 mb-4">
           <div class="col-sm-1"></div>
           <label class="col-sm-3 " for="puesto">Puesto:</label>
           <div class="col-sm-7">
@@ -213,6 +214,16 @@ if (!isset($_SESSION['UserData']['Username'])) {
             <div class="custom-control custom-checkbox custom-control-inline">
               <input class="custom-control-input" type="checkbox" id="access7" name="access[]" value="Puerta 7">
               <label class="custom-control-label" for="access7">Puerta 7</label>
+            </div>
+            <hr/>
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input class="custom-control-input" type="checkbox" id="access8" name="access[]" value="Lab Calidad">
+              <label class="custom-control-label" for="access8">Laboratorio de Calidad</label>
+            </div>
+            <hr/>
+            <div class="custom-control custom-checkbox custom-control-inline">
+              <input class="custom-control-input" type="checkbox" id="access9" name="access[]" value="Recibos">
+              <label class="custom-control-label" for="access9">Área Recibos</label>
             </div>
           </div>
         </div>
